@@ -1,0 +1,46 @@
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .pokemon-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .pokemon-name {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .pokemon-types {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pokemon-types li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #777;
+  }
+  
+  /* Vous pouvez ajouter des couleurs spécifiques pour chaque type de Pokémon ici */
+  .type.fire {
+    background-color: #f08030;
+  }
+  
+  .type.water {
+    background-color: #6890f0;
+  }
+  
+  /* Ajoutez d'autres types au besoin */
+  
